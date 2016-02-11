@@ -1,0 +1,130 @@
+*{
+  padding:0px;
+  margin:0px;
+}
+.no-padding{
+  padding:0;
+}
+.no-margin{
+  margin:0;
+}
+.padding{
+  width: 30%;
+  padding:2% 0.5%;
+}
+.orange {
+  color:orange;
+}
+.espace{
+  margin-bottom: 10em ;
+}
+.padding-mid{
+  margin:0 5%;
+}
+.padding h2, .padding p{
+  margin:0;
+}
+#titre{
+  color:white;
+  padding-bottom: 25px;
+}
+.bgBlue{
+  background: url("../images/header.png");
+}
+.bggrey{
+  background: url("../images/fond.png");
+}
+nav a{
+  color:white;
+  box-shadow: #4A91D2;
+}
+nav div{
+  text-align: center;
+  background-color: #76CBFA;
+  line-height: 4em;
+  border-radius: 2px;
+}
+.gras{
+  font-weight: bold;
+}
+#img{
+  width: 100%;
+  border:solid 2em white;
+  margin: 4em 0;
+}
+.article{
+  background: url("../images/fond-article.png");
+}
+.img2{
+  width: 100%;
+}
+.padd{
+  padding: 3em 0;
+}
+.miniart{
+
+}
+.border-fine{
+  border: solid 1px;
+}
+.listeArt button{
+  margin: 20px 0;
+}
+.listArt ul{
+  margin-top: 30px;
+}
+.sidebar li{
+  list-style: none;
+  line-height: 15px;
+  padding: 15px 0;
+}
+.sidebar li a {
+  text-decoration: none;
+  color: grey;
+}
+.ligne {
+  border-bottom: solid 1px;
+}
+.top{
+  padding-top: 10px;
+}
+.bggreyfonce{
+  background: url("../images/bas.png");
+  padding:30px 0;
+}
+.bggreyfonce h4{
+  margin:20px 0;
+}
+.paraf p{
+
+  line-height: 30px;
+}
+.bggreytresfonce{
+  background: url("../images/footer.png");
+  text-align: center;
+  padding:20px 0;
+}
+.paraf {
+  background: url("../images/citation.jpg");
+  padding: 20px;
+  font-style: oblique;
+}
+.liste li{
+  list-style: none;
+}
+.liste h5{
+  font-weight: bolder;
+}
+.liste p{
+  font-style: oblique;
+}
+.grille{
+  margin-top: 0.5em;
+}
+.grilleImg div{
+  width: 25%;
+}
+.collections{
+  margin-left:1em;
+  margin-top: 3em;
+}
