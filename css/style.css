@@ -8,15 +8,18 @@
 .no-margin{
   margin:0;
 }
-.padding{
+.padding-row{
+  padding:2em 0;
+}
+.margin{
+  margin: 0 1.5em;
+}
+.paddingvignettes{
   width: 30%;
   padding:2% 0.5%;
 }
 .orange {
   color:orange;
-}
-.espace{
-  margin-bottom: 10em ;
 }
 .padding-mid{
   margin:0 5%;
@@ -24,15 +27,23 @@
 .padding h2, .padding p{
   margin:0;
 }
+
 #titre{
   color:white;
   padding-bottom: 25px;
+}
+#img2{
+  margin: 1em 0;
+  width: 100%;
 }
 .bgBlue{
   background: url("../images/header.png");
 }
 .bggrey{
   background: url("../images/fond.png");
+}
+.grey{
+  color:#C6C1C1;
 }
 nav a{
   color:white;
@@ -58,12 +69,6 @@ nav div{
 .img2{
   width: 100%;
 }
-.padd{
-  padding: 3em 0;
-}
-.miniart{
-
-}
 .border-fine{
   border: solid 1px;
 }
@@ -83,6 +88,7 @@ nav div{
   color: grey;
 }
 .ligne {
+  color:#C6C1C1;
   border-bottom: solid 1px;
 }
 .top{
@@ -90,24 +96,22 @@ nav div{
 }
 .bggreyfonce{
   background: url("../images/bas.png");
-  padding:30px 0;
 }
 .bggreyfonce h4{
   margin:20px 0;
 }
-.paraf p{
-
+.citation {
+  background:url("../images/citationbulle.png"); background-size: cover;
+  padding: 20px;
+  font-style: oblique;
+}
+.citation p{
   line-height: 30px;
 }
 .bggreytresfonce{
   background: url("../images/footer.png");
   text-align: center;
   padding:20px 0;
-}
-.paraf {
-  background: url("../images/citation.jpg");
-  padding: 20px;
-  font-style: oblique;
 }
 .liste li{
   list-style: none;
@@ -121,10 +125,15 @@ nav div{
 .grille{
   margin-top: 0.5em;
 }
-.grilleImg div{
-  width: 25%;
+.grille div{
+  padding-right: 0px;
+}
+.grille img{
+  width:100%;
 }
 .collections{
-  margin-left:1em;
   margin-top: 3em;
+  box-shadow: 0 0 5px;
+}
+.collections a{
 }
